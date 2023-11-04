@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+              *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heder{
+    height: 80px;
+    width: 100%;
+    background: rgb(8, 223, 230);
+    text-align: center;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(/IMG/1295976.png);
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(89, 92, 88);
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #c90707;
+    border-radius: 5px;
+    background-image: url(/IMG/1295976.png);
+}
+
+h1 {
+    text-align: center;
+    color: #06e6f276;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #f20808;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#footer{
+    clear: both;
+    background: rgb(10, 10, 10);
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 30px;
+}
+#footer p{
+    color: #fff;
+}
+
+    </style>
+</head>
+<body>
+    <div id="heder">
+        <nav>
+            <ul>
+                <li><a href="/k.html">HOME</a></li>
+                <li><a href="/home.html">NEWS</a></li>
+                <li><a href="/index2.html">MOVIE</a></li>
+                <li><a href="/index.html">Contact Me</menu></a></li>
+            </ul>
+        </nav>
+    </div>
+ 
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="https://formsubmit.co/kesavan201603239@nmssvnc.edu.in" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        
+    </div>
+    <div id="footer"><p>2023 Marvel Studios. All rights reserved.</p></div>
+
+    
+    
+</body>
+</html>
